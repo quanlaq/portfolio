@@ -48,7 +48,7 @@ function getCareerData() {
     content: "Wingsmob"
   }
 
-  return [cGraduate, cVNG, cRikkeisoft, cBazooka, cAdone, cWingsmob];
+  return [cVNG, cRikkeisoft, cBazooka, cAdone, cWingsmob];
 }
 
 function getSkillsData() {
