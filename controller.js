@@ -42,10 +42,6 @@ function getCareerData() {
     date: "08/20",
     content: "Bazooka Studio",
   };
-  var cSS = {
-    date: "03/22",
-    content: "Super Snowball (Start up)",
-  };
 
   var cAdone = {
     date: "09/22",
@@ -56,12 +52,8 @@ function getCareerData() {
     date: "05/23",
     content: "Wingsmob"
   }
-
-  var cFreelance = {
-    date: "05/24",
-    content: "Freelancer"
-  }
-  return [cGraduate, cVNG, cRikkeisoft, cBazooka, cSS, cAdone, cWingsmob, cFreelance];
+  
+  return [cGraduate, cVNG, cRikkeisoft, cBazooka, cAdone, cWingsmob];
 }
 
 function getSkillsData() {
