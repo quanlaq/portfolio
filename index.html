@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Duy Tran</title>
+    <link
+      rel="stylesheet"
+      href="js/fancybox/jquery.fancybox.css"
+      type="text/css"
+      media="screen"
+    />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/screen.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="index.js"></script>
+    <script src="controller.js"></script>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div ng-app="root" ng-controller="controller" id="wrapper">
+      <div class="wrapper-holder">
+        <header id="header">
+          <a class="menu_trigger" href="#">menu</a>
+          <nav id="nav">
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="myskills.html">Skills</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <h1 class="logo">{{personal.name}}</h1>
+          <h2 class="slogan">
+            {{personal.title}}
+          </h2>
+          <div class="greetings">
+            <p>Hello, I'm Quan. My main work is to create 2D/3D mobile games in many types such as hyper-casual, casual, puzzle, etc.</p> 
+            <p>With my experience, I always put my effort to guarantee that your project will have good quality, be easy to maintain, and deliver on time.</p>
+            <p>Feel free to contact me.</p>
+          </p>
+          <h3></h3>
+        </header>
+      </div>
+      <div class="wrapper-holder grey">
+        <section id="main">
+          <h2>Career Timeline</h2>
+          <div class="box_timeline_holder">
+            <div class="box_timeline" ng-controller="controller">
+              <ul>
+                <li ng-repeat="x in career">
+                  <div class="date">
+                    <span>{{x.date}}</span>
+                  </div>
+                  <h3>{{x.content | lowercase}}</h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="footer-content">
+          <!-- <ul class="social"> -->
+          <!-- <li class="email"><a href="#">Email</a></li> -->
+          <!-- <li class="facebook"><a href={{personal.facebook}}>Facebook</a></li> -->
+          <!-- <li class="google"><a href="#">Google+</a></li> -->
+          <!-- <li class="twitter"><a href="#">Twitter</a></li> -->
+          <!-- <li class="pinterest"><a href="#">Pinterest</a></li> -->
+          <!-- </ul> -->
+          <p class="copy">Inspired by John Markowitz.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/cells-by-row.js"></script>
+    <script
+      type="text/javascript"
+      src="js/fancybox/jquery.fancybox.pack.js"
+    ></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

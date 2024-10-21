@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="format-detection" content="telephone=no">
+<!-- add fancybox.css -->
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/all.css" />
+	<link rel="stylesheet" href="css/screen.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="index.js"></script>
+	<script src="controller.js"></script>
+	<title>Duy Tran</title>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div ng-app="root" ng-controller="controller" id="wrapper" class="portfolio">
+		<div class="wrapper-holder">
+			<header id="header">
+				<a class="menu_trigger" href="#">menu</a>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="myskills.html">skills</a></li>
+							<li><a class="active" href="portfolio.html">Portfolio</a></li>
+              				<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+			</header>
+		</div>
+		<div class="wrapper-holder grey">
+			<section id="main">
+				<!-- <h2>All works that I made</h2> -->
+				<ul class="sub_nav">
+					<li>Featured projects</li>
+					<!-- <li data-filter=".web">Web design</li>
+					<li data-filter=".illustration">Illustration</li>
+					<li data-filter=".dtp">DTP</li>
+					<li data-filter=".key">Key Visual</li>
+					<li data-filter=".identity">Identity</li> -->
+				</ul>
+				<ul id="container1" class="item-list">
+					<li class="item web key" >
+						<div class="image ">
+							<img src="images/tileking-01.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_1">
+									<div class="item-content">
+										<h4>Tile King</h4>
+										<p>A match-3 tile puzzle game</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item illustration identity">
+						<div class="image">
+							<img src="images/Stick-01.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_2">
+									<div class="item-content">
+										<h4>Stick Army Battle</h4>
+										<p>A puzzle game where player must do math to gain victory</p>
+									</div>
+									</a>
+							</div>
+						</div>
+					</li>
+					<li class="item web dtp">
+						<div class="image">
+							<img src="images/zb-01.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_3">
+									<div class="item-content">
+										<h4>Zombie Hunter - Catch Zombies</h4>
+										<p>An action game where you hunt down zombies and upgrade base</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item illustration key">
+						<div class="image">
+							<img src="images/hero_01.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_4">
+									<div class="item-content">
+										<h4>Super Hero Stickman Ragdoll</h4>
+										<p>A 2D ragdoll fighting game</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item web identity">
+						<div class="image">
+							<img src="images/dino-101.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_5">
+									<div class="item-content">
+										<h4>Dino Jam - Parking Puzzle Game</h4>
+										<p>Dino Jam is a fun and addictive 3D puzzle game.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item dtp identity">
+						<div class="image">
+							<img src="images/slime-01.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_6">
+									<div class="item-content">
+										<h4>Slime Bag Fight</h4>
+										<p>A strategy game, select and arrange weapon into a backpack to fight</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!-- <li class="item dtp key">
+						<div class="image">
+							<img src="images/blank.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_7">
+									<div class="item-content">
+										<h4>voluptas assumenda</h4>
+										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item web identity">
+						<div class="image">
+							<img src="images/blank.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_8">
+									<div class="item-content">
+										<h4>voluptas assumenda</h4>
+										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li> -->
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<div class="footer-content">
+				<!-- <ul class="social">
+					<li class="email"><a href="#">Email</a></li>
+					<li class="facebook"><a href="#">Facebook</a></li>
+					<li class="google"><a href="#">Google+</a></li>
+					<li class="twitter"><a href="#">Twitter</a></li>
+					<li class="pinterest"><a href="#">Pinterest</a></li>
+				</ul> -->
+				<p class="copy">Inspired by John Markowitz.</p>
+			</div>
+		</footer>	
+	</div>
+	<div style="display:none;">
+		<div id="portfolio_1" class="popup_portfolio">
+			<img src="images/tileking-02.png" alt="" />
+			<h3><a href="https://play.google.com/store/apps/details?id=com.tile.king.tile.master.classic.triple.match&hl=en">Tile King</a></h3>
+			<!-- <time datetime="2014-06-20">Made: 07/21</time> -->
+			<p>A match-3 tile puzzle game</p>
+		</div>
+		<div id="portfolio_2" class="popup_portfolio">
+			<img src="images/stick-02.jpg"  alt="" />
+			<h3><a href = "https://play.google.com/store/apps/details?id=com.stick.army.battle.stick.clash&hl=en">Stick Army Battle</a></h3>
+			<!-- <time datetime="2014-06-20">Made: 01/21</time> -->
+			<p>A puzzle game where player must do math to gain victory</p>
+		</div>
+		<div id="portfolio_3" class="popup_portfolio">
+			<img src="images/zb-02.png"  alt="" />
+			<h3><a href="https://play.google.com/store/apps/details?id=com.zombiehunter.zombiecatch&hl=en">Zombie Hunter - Catch Zombie</a></h3>
+			<!-- <time datetime="2014-06-20">Made: 07/20</time> -->
+			<p>Your task is simple: Hunt Zombies, bring back, process and sell food to customers.</p>
+		</div>
+		<div id="portfolio_4" class="popup_portfolio">
+			<img src="images/hero-02.png"  alt="" />
+			<h3><a href="https://play.google.com/store/apps/details?id=com.stonative.io.hero.stickman.ragdoll.fight">Super Hero Stickman Ragdoll</a></h3>
+			<!-- <time datetime="2014-06-20">Made: 04/21</time> -->
+			<p>A 2d ragdoll fighting game</p>
+		</div>
+		<div id="portfolio_5" class="popup_portfolio">
+			<img src="images/dino-02.png"  alt="" />
+			<h3><a href="https://apps.apple.com/us/app/dino-jam-parking-puzzle-game/id6475335835?platform=iphone">Dino Jam - Parking Puzzle Game</a></h3>
+			<!-- <time datetime="2014-06-20">Made: 04/21</time> -->
+			<p>Dino Jam is a fun and addictive 3D puzzle game.</p>
+		</div>
+		<div id="portfolio_6" class="popup_portfolio">
+			<img src="images/slime-02.png"  alt="" />
+			<h3><a href="#">Slime Bag Fight</a></h3>
+			<!-- <time datetime="2014-06-20">Made: 05/20</time> -->
+			<p>A strategy game, select and arrange weapon into a backpack to fight</p>
+		</div>
+		<div id="portfolio_7" class="popup_portfolio">
+			<img src="images/img_pf02.jpg"  alt="" />
+			<h3>Title of the work 7</h3>
+			<time datetime="2014-06-20">Made: 06/20/14</time>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+		</div>
+		<div id="portfolio_8" class="popup_portfolio">
+			<img src="images/img_pf02.jpg"  alt="" />
+			<h3>Title of the work 8</h3>
+			<time datetime="2014-06-20">Made: 06/20/14</time>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/cells-by-row.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
