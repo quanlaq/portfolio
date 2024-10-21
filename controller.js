@@ -23,11 +23,6 @@ function getPortfolioData() {
 }
 
 function getCareerData() {
-  var cGraduate = {
-    date: "06/18",
-    content: "UET-VNU",
-  };
-
   var cVNG = {
     date: "07/18",
     content: "VNG",
@@ -52,7 +47,7 @@ function getCareerData() {
     date: "05/23",
     content: "Wingsmob"
   }
-  
+
   return [cGraduate, cVNG, cRikkeisoft, cBazooka, cAdone, cWingsmob];
 }
 
